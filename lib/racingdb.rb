@@ -12,6 +12,22 @@
 require 'racing/version' # let it always go first
 
 
+require 'sportdb/models/race'
+require 'sportdb/models/record'
+require 'sportdb/models/run'
+require 'sportdb/models/track'
+
+
+require 'sportdb/utils_record'
+
+
+require 'sportdb/readers/race'
+require 'sportdb/readers/record'
+require 'sportdb/readers/race_team'
+require 'sportdb/readers/track'
+
+
+
 
 
 module RacingDb
