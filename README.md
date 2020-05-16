@@ -110,7 +110,7 @@ EXAMPLES
 
 ## Scripting
 
-### Reading Datasets in (Structured) Text
+### Reading Match Datasets in (Structured) Text
 
 **Step 1**
 
@@ -184,7 +184,7 @@ SportDb.read( './england.zip' )
 [More documentation »](https://github.com/sportdb/sport.db/tree/master/sportdb-readers)
 
 
-### Reading Datasets in Comma-Separated Values (CSV) Format
+### Reading Match Datasets in Comma-Separated Values (CSV) Format
 
 **Step 1**
 
