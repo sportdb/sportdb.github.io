@@ -1,9 +1,34 @@
 # sport.db Tools & Scripts
 
-Open Sport(s) Data (Football, Alpine Ski, Formula 1, etc.) Tools & Scripts
+_Open Sport(s) Data (Football, Alpine Ski, Formula 1, etc.) Tools & Scripts_
 
 
-## sportdb - sport.db Command Line Tool
+[GitHub](https://github.com/sportdb) // 
+[Guides](https://github.com/sportdb/docs) // 
+[Datasets](https://github.com/sportdb/datasets) 
+
+
+![](i/sportdb-models.png)
+
+
+[Command Line Tools](#command-line-tools)  •
+[Scripting](#scripting)
+
+
+## Quick Starter Guides
+
+See the **[football.db League Starter Sample - Mauritius Premier League](https://github.com/openfootball/league-starter)**
+if you want to start from scratch (zero) with your very own league.
+
+See the **[football.db Quick Starter Datafile Templates](https://github.com/openfootball/quick-starter)** if you want to read in ready-to-use /
+ready-to-fork dataset packages incl. the English Premier League, the German
+Bundesliga, the Spanish Primera División and some more.
+
+
+## Command Line Tools
+
+
+### sportdb - sport.db Command Line Tool
 
 The sportdb tool lets you read in (parse) datasets (e.g. leagues, clubs, match schedules, etc.) 
 in plain text into your sports SQL database of choice (e.g. SQLite, PostgreSQL, etc.)
@@ -38,7 +63,7 @@ MORE COMMANDS
 ```
 
 
-### `new` Command
+#### `new` Command
 
 ```
 NAME
@@ -52,7 +77,7 @@ EXAMPLES
 ```
 
 
-### `build` Command
+#### `build` Command
 
 ```
 NAME
@@ -66,7 +91,7 @@ EXAMPLES
 ```
 
 
-### `serve` Command
+#### `serve` Command
 
 ```
 NAME
@@ -80,15 +105,6 @@ EXAMPLES
 ```
 
 [More documentation »](https://github.com/sportdb/sport.db/tree/master/sportdb)
-
-### More Documentation / Getting Started Guides
-
-See the **[football.db League Starter Sample - Mauritius Premier League](https://github.com/openfootball/league-starter)**
-if you want to start from scratch (zero) with your very own league.
-
-See the **[football.db Quick Starter Datafile Templates](https://github.com/openfootball/quick-starter)** if you want to read in ready-to-use /
-ready-to-fork dataset packages incl. the English Premier League, the German
-Bundesliga, the Spanish Primera División and some more.
 
 
 
