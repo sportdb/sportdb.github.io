@@ -1,4 +1,4 @@
-# sport.db - open sports database (e.g. football.db, formula1.db etc.) command line tool and libraries
+# sport.db Tools & Scripts
 
-
+Open Sport(s) Data (Football, Alpine Ski, Formula 1, etc.) Tools & Scripts
 
