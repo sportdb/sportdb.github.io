@@ -11,8 +11,10 @@ _Open Sport(s) Data (Football, Alpine Ski, Formula 1, etc.) Tools & Scripts_
 ![](i/sportdb-models.png)
 
 
-[Command Line Tools](#command-line-tools)  •
-[Scripting](#scripting)
+[Command Line Tools](#command-line-tools) •
+[Scripting](#scripting) •
+[Services (HTTP JSON APIs)](#services-http-json-apis)
+
 
 
 ## Quick Starter Guides
@@ -249,6 +251,28 @@ SportDb.read_csv( './england.zip' )
 ```
 
 [More documentation »](https://github.com/sportdb/sport.db/tree/master/sportdb-importers)
+
+
+
+## Services (HTTP JSON APIs)
+
+You can run any of the HTTP JSON API (web service) scripts using the `sportdb` command line tool. 
+By default the `serve` command will look for
+a script named `Service` or `service.rb` (in the working folder, that is, `./`). Example:
+
+```
+$ sportdb serve
+```
+
+To run any other script - copy the script into the working folder and pass it along as an argument. Example:
+
+```
+$ sportdb serve starter      #  note: will (auto-)add the .rb extension  or
+$ sportdb serve starter.rb
+```
+
+[More documentation »](https://github.com/sportdb/sport.db.service)
+
 
 
 ## Questions? Comments?
